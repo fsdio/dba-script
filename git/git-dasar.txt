@@ -1,0 +1,24 @@
+git –version
+git config --global user.name “Rahmat Sunjani”
+git config --global user.email “email.example@gmail.com”
+git init
+git add <name-file>
+git commit -m “your-message”
+git diff
+git clean –f
+git restore <name-file>
+git restore --staged namafile
+git revert HEAD
+git log
+git log --oneline
+git log
+git log –oneline
+git show <hash>
+git reset --<mode> hash
+git commit --amend -m “Eh, ada baris lupa”
+git checkout hash -- <namafile>
+git checkout <hash>
+git checkout <branch>
+git branch --show-current
+git blame <namafile>
+git config --global alias.<name-alias> “<your-command>” 
