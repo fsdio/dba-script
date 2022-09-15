@@ -1,0 +1,23 @@
+git branch <name-branch> // Membuat Branch
+git branch --list // View Branch
+git branch // View Branch 
+git switch <name-branch> // Pindah Branch
+git checkout <name-branch> // Pindah Branch
+git branch -m <name-branch> // Change Branch
+git branch -d <name-branch> // Delete Branch
+git merge <name-branch> // Menggambungkan Branc Luar Ke Branch Saat Ini
+git log --oneline --graph // Melihat Log Secara Grafik
+git merge --abort // Membatalkan Conflict Saat Menggabungkan Branch
+git cherry-pick <commit-id> // Menggabungkan Branch Sesuai Commit
+git tag <name-tag> <commit-id> // Membuat Tag
+git tag -l // Melihat Daftar Tag
+git checkout <name-tag> // Pindah Ke Commit Tag
+git tag -d <name-tag> // Hapus Tag
+git stash push -m "message stash" // Membuat Stash
+git stash list // Melihat Daftar Stash
+git stash show <stash-id> // Melihat Perubahan Pada Stash
+git stash apply <stash-id> // Menggunakan Stash
+git stash drop <stash-id> // Menghapus Stash
+git stash clear // Menghapus Semua Stash
+git rebase <name-branch> // Menggambungkan Branc Luar Ke Branch Saat Ini ( Lebih Kompleks )
+git merge --squash <nama-branch> // Menyatukan Banyak Commit
