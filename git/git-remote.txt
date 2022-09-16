@@ -15,3 +15,17 @@ git push --delete <name-remote> <name-branch-remote> // To Delete Branch in GitH
 git clone <url-remote-repo> // To Clone Repository ( Default Name Folder )
 git clone <url-remote-repo> <name-folder> // To Clone Repository ( Custom Name Folder )
 git branch -r // To View Branch Remote
+git branch -a // To View All Branch Remote and Branch Local
+git checkout -b <local-branch> <nama-remote/remote-branch>
+git fetch <name-remote> // To View Change in Remote ( Not Apply )
+git fetch <name-remote> <name-remote-branch> // To View Change in Remote Custom Branch ( Not Apply )
+git pull <name-remote> <name-remote-branch> // To View Change in Remote ( Apply in Repository )
+git push <name-remote> <name-tag> // To Publish One Tag
+git push <name-remote> --tags // To Publish All Tag
+git fetch <name-remote> <name-tag> // To Take One Tag
+git fetch <name-remote> // To Take All Tag
+git push --delete <name-remote> <name-tag> // To Delete Tag
+git submodule add <url-git-repo> <name-folder> // To Join Repo Lainnya
+git submodule update --remote <name-folder> // To Update Submodule
+git submodule update --remote // To Update All Submodule
+git submodule init // To Enable Submodule
