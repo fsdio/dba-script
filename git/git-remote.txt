@@ -1,0 +1,17 @@
+( Recomended To Install Visual Studio Code )
+ssh-keygen // Untuk Mendapatkan SSH Key
+code /<user-profile>/.ssh/id_rsa // Untuk Mengambil SSH Key Private 
+code /<user-profile>/.ssh/id_rsa.pub // Untuk Mengambil SSH Key Public
+https://github.com/settings/keys // Add SSH Key in GitHub
+ssh -T git@github.com // To Check SSH Key in GitHub
+git remote add <name-remote> <link-ssh-github> // Add Remote in GitHub via SSH
+git remote // View List Remote
+git remote get-url <name-remote> // View Link SSH GitHub
+git remote  rm <name-remote> // To Delete Remote
+git push <name-remote> <name-branch-local> // To Publish GitHub and same Branch
+git push <name-remote> <name-branch-local>/<name-branch-remote> // To Upload GitHub and not same Branch
+git push <name-remote> --all // To Publish All
+git push --delete <name-remote> <name-branch-remote> // To Delete Branch in GitHub
+git clone <url-remote-repo> // To Clone Repository ( Default Name Folder )
+git clone <url-remote-repo> <name-folder> // To Clone Repository ( Custom Name Folder )
+git branch -r // To View Branch Remote
