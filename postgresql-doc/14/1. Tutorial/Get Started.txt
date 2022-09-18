@@ -1,1 +1,6 @@
 https://www.postgresql.org/download/ [ Link Download ]
+psql -U <your-username> [ Login ] ( default postgres )
+SELECT version(); [ Cek Versi ]
+SELECT current_date; [ Date Saat Ini ]
+\h [ Get Help ]
+\q [ Get Quit ]
