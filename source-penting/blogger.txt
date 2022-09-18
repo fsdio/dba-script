@@ -1,0 +1,15 @@
+<!-- Code -->
+<div class="container" style="margin-top: 20px;">
+<pre><code class="hljs" id="code"> <!--- Enter your Code --> </code></pre></div>
+
+<!-- Table Of Content -->
+<div class="mbtTOC">
+<button onclick="mbtToggle()">Daftar Isi</button>
+<ol id="mbtTOC"></ol>
+</div>
+
+<!-- IN BOTTOM -->
+<script>mbtTOC();</script>
+
+<!-- EMBED YOUTUBE -->
+<iframe width="560" height="315" src="<!--link Youtube-->?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
