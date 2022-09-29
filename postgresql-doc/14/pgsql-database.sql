@@ -1,3 +1,3 @@
-CREATE DATABASE <name-database> -- CREATE DATABASE
-\c <name-database> -- SELECT DATABASE
-DROP DATABASE <name-database> -- DROP DATABASE
+CREATE DATABASE db_warung -- CREATE DATABASE
+\c db_warung -- SELECT DATABASE
+DROP DATABASE db_warung -- DROP DATABASE
